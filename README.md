@@ -1,3 +1,12 @@
+# TECH that will be used in this facebook clone
+
+1. Material UI
+2. React HOOKS
+3. React router
+4. Firebase hosting
+5. Flexbox
+6. Date picker
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
