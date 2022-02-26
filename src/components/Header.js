@@ -1,19 +1,25 @@
-import { Avatar } from "@material-ui/core";
-import { LanguageOutlined, SearchOutlined } from "@material-ui/icons";
-import { ExpandMore } from "@material-ui/icons";
+import {
+  ExpandMore,
+  LanguageOutlined,
+  SearchOutlined,
+} from "@mui/icons-material";
+import { Avatar } from "@mui/material";
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
   return (
     <div className="header">
-      <img
-        className="header__icon"
-        src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png"
-        alt=""
-      />
+      <Link to="/">
+        <img
+          className="header__icon"
+          src="https://press.airbnb.com/wp-content/uploads/sites/4/2017/01/airbnb_vertical_lockup_web.png?fit=2096,1048"
+          alt=""
+        />
+      </Link>
       <div className="header__center">
-        <input type="text" />
+        <input type="text" name="" id="" />
         <SearchOutlined />
       </div>
       <div className="header__right">

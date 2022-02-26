@@ -3,60 +3,46 @@ import Banner from "./Banner";
 import Card from "./Card";
 import "./Home.css";
 
+//ES7 snippet to do 'rfce'
 function Home() {
   return (
     <div className="home">
       <Banner />
       <div className="home__section">
         <Card
-          src="https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720"
-          title="Online Experiences"
-          description="Unique activities we can do together, led by a world of hosts."
+          src="https://cdn.pixabay.com/photo/2015/05/23/16/59/homestead-780767_960_720.jpg"
+          title="Online Experince"
+          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
         />
         <Card
-          src="https://a0.muscache.com/im/pictures/15159c9c-9cf1-400e-b809-4e13f286fa38.jpg?im_w=720"
-          title="Unique stays"
-          description="Spaces that are more than just a place to sleep."
+          src="https://cdn.pixabay.com/photo/2021/10/09/00/15/landscape-6692712_960_720.jpg"
+          title="Unique Stay"
+          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
         />
         <Card
-          src="https://a0.muscache.com/im/pictures/fdb46962-10c1-45fc-a228-d0b055411448.jpg?im_w=720"
+          src="https://cdn.pixabay.com/photo/2019/06/25/22/30/manor-house-4299218_960_720.jpg"
           title="Entire homes"
-          description="Comfortable private places, with room for friends or family."
+          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
         />
-        {/* <Card
-          src="https://cdn.pixabay.com/photo/2014/12/10/06/49/venetian-562762_960_720.jpg"
-          title="Online Experiences"
-          description="Unique activities we can do together, led by a world of hosts."
-        />
-        <Card
-          src="https://cdn.pixabay.com/photo/2016/06/10/01/05/hotel-room-1447201_960_720.jpg"
-          title="Unique stays"
-          description="Spaces that are more than just a place to sleep."
-        />
-        <Card
-          src="https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072_960_720.jpg"
-          title="Entire homes"
-          description="Comfortable private places, with room for friends or family."
-        /> */}
       </div>
       <div className="home__section">
         <Card
-          src="https://cdn.pixabay.com/photo/2014/12/10/06/49/venetian-562762_960_720.jpg"
-          title="Online Experiences"
-          description="Unique activities we can do together, led by a world of hosts."
-          price="£75/night"
+          src="https://cdn.pixabay.com/photo/2016/08/21/17/07/penthouse-1610299_960_720.jpg"
+          title="Mansion in Malindi"
+          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          price="$ 250 /night"
         />
         <Card
-          src="https://cdn.pixabay.com/photo/2016/06/10/01/05/hotel-room-1447201_960_720.jpg"
-          title="Unique stays"
-          description="Spaces that are more than just a place to sleep."
-          price="£40/night"
+          src="https://cdn.pixabay.com/photo/2020/09/03/10/57/bedroom-5540915_960_720.jpg"
+          title="Sarova Mombasa"
+          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          price="$ 450 /night"
         />
         <Card
-          src="https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072_960_720.jpg"
-          title="Entire homes"
-          description="Comfortable private places, with room for friends or family."
-          price="£70/night"
+          src="https://cdn.pixabay.com/photo/2021/07/20/06/09/balcony-6479821_960_720.jpg"
+          title="Lamu stay"
+          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          price="$ 50 /night"
         />
       </div>
     </div>
