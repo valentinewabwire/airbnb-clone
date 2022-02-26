@@ -7,6 +7,13 @@
 5. Flexbox
 6. Date picker
 
+# LIVE DEMO
+
+Application is deployed to firebase [live](https://airbnb-clone-d007b.web.app/)
+
+![image](https://user-images.githubusercontent.com/53892988/155845769-c85dfe10-8c0f-483b-9df7-226c04ac230c.png)
+![image](https://user-images.githubusercontent.com/53892988/155845798-bb557dc9-fdcf-4578-a5a1-694168e8655a.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
